@@ -10,7 +10,7 @@ class Example(MycroftSkill):
     @intent_file_handler('example.intent')
     def handle_example(self, message):
         self.speak_dialog('example')
-        print("oh yeah im also here")
+        self.log.info("oh yeah im also here")
 
 
 def create_skill():
