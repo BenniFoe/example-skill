@@ -1,5 +1,6 @@
 from mycroft import MycroftSkill, intent_file_handler
 
+# this is a major comment
 
 class Example(MycroftSkill):
     def __init__(self):
